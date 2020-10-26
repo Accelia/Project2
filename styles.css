@@ -1,14 +1,14 @@
 body { 
 font-family: 'Nunito Sans', sans-serif;
-background-color:HSL (343, 58%, 88%);
+background-color: hsl(343, 58%, 89%);
 width: 450px; 
 }
 h2 {
-
+font-size:50px; 
 }
-img {
-  width: 100%;
+.Image {
+  width: 350px;
 }
-.directions {
+.ServingSize {
   
 }
