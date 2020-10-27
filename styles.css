@@ -4,10 +4,17 @@ background-color: hsl(343, 58%, 89%);
 width: 500px; 
 }
 
+.card {
+  background-color: white;
+  width: 500px; 
+}
 h2 {
 font-size:50px; 
 }
 
+#ingredients {
+display: none;
+}
 .image {
   width: 425px;
 }
