@@ -8,20 +8,18 @@ h2 {
 font-size:50px; 
 }
 
-.Image {
+.image {
   width: 425px;
 }
 .button {
   background-color: #FFB6C1;
   border: 1px solid black;
   color: black;
-  padding: 0px 0px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 2px 2px;
-  cursor: pointer;
   transition: all 300ms;
   height: 70px;
   width: 70px;
@@ -31,35 +29,9 @@ font-size:50px;
   margin: auto;
   height: 55px;
   display: block;
-  position: center;
 }
 
-.button:Hover {
+.button:hover {
 background-color: white;
 }
 
-.button2 {
-  background-color: #FFB6C1;
-  border: 1px solid black;
-  color: black;
-  padding: 0px 0px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 2px;
-  cursor: pointer;
-  transition: all 300ms;
-  height: 70px;
-  width: 70px;
-}
-
-.button2 img{
-  margin: auto;
-  height: 55px;
-  display: block;
-  position: absolute;
-}
-.button2:Hover {
-  background-color: white;
-}
