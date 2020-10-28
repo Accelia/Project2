@@ -1,13 +1,16 @@
 body { 
 font-family: 'Nunito Sans', sans-serif;
-background-color: hsl(343, 58%, 89%);
-width: 500px; 
+background-color: hsl(343, 58%, 89%); 
 }
 
+*{
+box-sizing: border-box;
+}
 .card {
   background-color: white;
-  width: 500px; 
+  width: 600px; 
 }
+
 h2 {
 font-size:50px; 
 }
@@ -19,10 +22,31 @@ display: none;
 .image-wrapper, .content{
   display: inline-block;
   width: 40%;
+  vertical-align: top;
 }
 
 .image-wrapper img{
 width: 100%;
+border: 1px solid black;
+padding: 10px;
+}
+
+.image-wrapper{
+margin-right: 40px;
+}
+
+h2 {
+margin: 0;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding-left: 0;
+}
+
+nav li{
+display: inline-block;
 }
 .button {
   background-color: #FFB6C1;
