@@ -15,8 +15,14 @@ font-size:50px;
 #ingredients {
 display: none;
 }
-.image {
-  width: 425px;
+
+.image-wrapper, .content{
+  display: inline-block;
+  width: 40%;
+}
+
+.image-wrapper img{
+width: 100%;
 }
 .button {
   background-color: #FFB6C1;
