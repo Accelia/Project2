@@ -81,3 +81,9 @@ display: inline-block;
 background-color: white;
 }
 
+.information img{
+  
+}
+.information ul {
+  display: inline-block;
+}
