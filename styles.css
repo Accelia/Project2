@@ -1,61 +1,65 @@
-body { 
-font-family: 'Nunito Sans', sans-serif;
-background-color: hsl(343, 58%, 89%); 
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: hsl(343, 58%, 89%);
 }
 
-*{
-box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 .card {
   background-color: white;
-  width: 600px; 
+  width: 600px;
   padding: 15px;
 }
 
 h2 {
-font-size:50px; 
+  font-size: 50px;
 }
 
-.toggle-content:target ~ #directions, .toggle-content {
+.toggle-content:target ~ #directions,
+.toggle-content {
   display: none;
 }
-#directions, .toggle-content:target {
+#directions,
+.toggle-content:target {
   display: block;
 }
 
-#directions:target, #ingredients:target{
-display: block;
+#directions:target,
+#ingredients:target {
+  display: block;
 }
 
-.image-wrapper, .content{
+.image-wrapper,
+.content {
   display: inline-block;
   width: 40%;
   vertical-align: top;
 }
 
-.image-wrapper img{
-width: 100%;
-border: 1px solid black;
-padding: 10px;
+.image-wrapper img {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
 }
 
-.image-wrapper{
-margin-right: 40px;
+.image-wrapper {
+  margin-right: 40px;
 }
 
 h2 {
-margin: 0;
-line-height: 1;
+  margin: 0;
+  line-height: 1;
 }
 
 nav ul {
-list-style: none;
-margin: 0;
-padding-left: 0;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
-nav li{
-display: inline-block;
+nav li {
+  display: inline-block;
 }
 .button {
   background-color: #FFB6C1;
@@ -70,26 +74,26 @@ display: inline-block;
   padding: 10px;
 }
 
-.button img{
+.button img {
   margin: auto;
-  height: 36px;
+  height: 24px;
   width: auto;
   display: block;
 }
 
 .button:hover {
-background-color: white;
+  background-color: white;
 }
 
-.information img{
+.information img {
   margin: auto;
   height: 36px;
   width: auto;
-  display: inline-block; 
+  display: inline-block;
   border: 0;
   padding: 5px;
 }
 
 #info ul {
-  padding: 0
+  padding: 0;
 }
