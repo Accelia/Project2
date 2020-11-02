@@ -82,8 +82,14 @@ background-color: white;
 }
 
 .information img{
-  
+  margin: auto;
+  height: 36px;
+  width: auto;
+  display: inline-block; 
+  border: 0;
+  padding: 5px;
 }
-.information ul {
-  display: inline-block;
+
+#info ul {
+  padding: 0
 }
