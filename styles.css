@@ -15,11 +15,14 @@ h2 {
 font-size:50px; 
 }
 
-.toggle-content {
-display: none;
+.toggle-content:target ~ #directions, .toggle-content {
+  display: none;
+}
+#directions, .toggle-content:target {
+  display: block;
 }
 
-#ingredients:target, #directions:target{
+#directions:target, #ingredients:target{
 display: block;
 }
 
