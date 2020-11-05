@@ -99,7 +99,7 @@ nav li {
   padding: 0;
 }
 
-li {
+#info li {
 list-style: none;
 display: inline-block;
 }
