@@ -81,7 +81,7 @@ nav li {
   display: block;
 }
 
-.button:hover {
+.button:hover, .button:focus {
   background-color: white;
 }
 
